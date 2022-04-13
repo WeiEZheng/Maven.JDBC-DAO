@@ -3,9 +3,9 @@ package daos;
 import java.util.List;
 
 public interface DAO<T> {
-    public T findById(int id);
-    public List findAll();
-    public T update(T dto);
-    public T create(T dto);
-    public void delete(int id);
+    T findById(int id);
+    List findAll();
+    T update(T dto);
+    T create(T dto);
+    void delete(int id);
 }
